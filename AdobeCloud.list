@@ -1,0 +1,6 @@
+# AdobeCloud 使用代理的时候无法下载云上文件，改为直连更快
+
+DOMAIN-SUFFIX,dc-api.adobe.io
+DOMAIN-SUFFIX,dc-api.adobecontent.io
+DOMAIN-SUFFIX,adobe.demdex.net
+DOMAIN-SUFFIX,sstats.adobe.com
