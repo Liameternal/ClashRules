@@ -1,7 +1,15 @@
-# 内容：樱花动漫
+# 樱花动漫
 
 DOMAIN-SUFFIX,yinghuacd.com
 DOMAIN-SUFFIX,yhdmp.cc
 DOMAIN-KEYWORD,yinghua
 DOMAIN-KEYWORD,yhdm
 
+# mutefun
+DOMAIN-KEYWORD,mutefun
+
+# age anima 
+DOMAIN-SUFFIX,agemys.net
+
+# other
+DOMAIN-KEYWORD,996dm
