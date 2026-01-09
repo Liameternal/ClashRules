@@ -1,3 +1,9 @@
-# 声明
+# ClashRules
 
-分流规则除少数自己添加的规则外，其余均引用[ACL4SSR/ACL4SSR仓库](https://github.com/ACL4SSR/ACL4SSR.git)的内容
+本仓库收集了一组供 Clash（或兼容客户端）使用的分流/路由规则清单（以 `.list` 文件形式存放）。
+
+**声明**：除少数自定义条目外，规则来源与参考资料主要基于 ACL4SSR 等公开项目。使用时请遵守其相应许可与使用条款。
+
+**目录说明**：
+- 每个 `*.list` 文件为一类规则或域名/IP 列表（例如 `YouTube.list`、`ChinaIp.list` 等）。
+- `clashverge.yml` 为示例或合集配置（如有），可用于快速在 Clash 中引入。

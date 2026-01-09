@@ -1,4 +1,5 @@
-# rule for openai
+# rule for openai、gemini
 
 DOMAIN-SUFFIX,openai.com
 DOMAIN,bard.google.com
+DOMAIN-KEYWORD,gemini
