@@ -1,0 +1,15 @@
+# Notion
+# Sources:
+# - https://www.notion.com/help/allowlist-ip
+# - https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ProxyGFWlist.list
+# License: CC-BY-SA-4.0
+# Updated: 2026-08-31
+
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN,secure.notion-static.com
+IP-CIDR,131.149.232.0/21,no-resolve
+IP-CIDR,208.103.161.0/24,no-resolve
+IP-CIDR6,2602:f79a::/36,no-resolve

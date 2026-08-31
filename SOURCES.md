@@ -10,7 +10,7 @@
 - 适用文件：
   - rules/ad/*.list
   - rules/domestic/ChinaDomain.list
-  - rules/domestic/applications/Download.list
+  - rules/domestic/Download.list
   - rules/domestic/ip/ChinaCompanyIp.list
   - rules/domestic/media/ChinaMedia.list
   - rules/domestic/network/LocalAreaNetwork.list
@@ -24,8 +24,13 @@
   - rules/global/media/YouTube.list
   - rules/global/messaging/Telegram.list
   - rules/global/services/Apple.list
+  - rules/global/services/Notion.list
   - rules/global/services/microsoft/*.list
 - 本仓库修改：重新组织目录、统一为 Clash classical 文本格式、更新部分规则、移除单文件内完全重复条目和 Mihomo 不支持的 `URL-REGEX` 条目，并同步修改配置引用。
+
+### Notion 补充来源
+
+`rules/global/services/Notion.list` 在 ACL4SSR 的 `notion.so` 规则基础上，按照 [Notion 官方网络白名单](https://www.notion.com/help/allowlist-ip) 补充当前域名及自有 IPv4/IPv6 网段。
 
 ## 17mon / IPIP.NET
 

@@ -14,8 +14,7 @@ rules/
 │   └── UnBan.list
 ├── domestic/
 │   ├── ChinaDomain.list
-│   ├── applications/
-│   │   └── Download.list
+│   ├── Download.list
 │   ├── ip/
 │   │   ├── ChinaCompanyIp.list
 │   │   ├── ChinaIp.list
@@ -49,6 +48,7 @@ rules/
     └── services/
         ├── Apple.list
         ├── Nvidia.list
+        ├── Notion.list
         └── microsoft/
             ├── Microsoft.list
             └── OneDrive.list
@@ -73,7 +73,7 @@ ACL4SSR 的 `ProxyGFWlist.list`、`ProxyMedia.list` 等合集可以独立使用�
 1. 局域网和广告误杀白名单；
 2. 广告拦截；
 3. 国内媒体、域名、IP 与服务；
-4. AI、Microsoft、Telegram、游戏、YouTube、Nvidia 和国外媒体；
+4. AI、Microsoft、Telegram、游戏、YouTube、Nvidia、Notion 和国外媒体；
 5. `ProxyGFWlist` 通用国外规则；
 6. `MATCH` 兜底。
 
