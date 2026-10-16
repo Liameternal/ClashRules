@@ -4,12 +4,11 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-06-06 09:16:57
-# Local addition: an exact host observed in Prime Video traffic (see SOURCES.md).
-# DOMAIN: 6
+# DOMAIN: 5
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 19
 # PROCESS-NAME: 1
-# TOTAL: 27
+# TOTAL: 26
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
@@ -36,6 +35,3 @@ DOMAIN-SUFFIX,primevideo.tv
 DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-KEYWORD,avoddashs
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
-
-# Supplemental Prime Video endpoint (exact host to limit matching scope)
-DOMAIN,prod.us-east-1.sonar.prime-video.amazon.dev
