@@ -38,6 +38,7 @@ rules/
     │   ├── Steam.list
     │   └── Xbox.list
     ├── media/
+    │   ├── AmazonPrimeVideo.list
     │   ├── BilibiliHMT.list
     │   ├── Emby.list
     │   ├── Netflix.list
@@ -73,11 +74,13 @@ ACL4SSR 的 `ProxyGFWlist.list`、`ProxyMedia.list` 等合集可以独立使用�
 1. 局域网和广告误杀白名单；
 2. 广告拦截；
 3. 国内媒体、域名、IP 与服务；
-4. AI、Microsoft、Telegram、游戏、YouTube、Nvidia、Notion 和国外媒体；
+4. AI、Microsoft、Telegram、游戏、YouTube、Amazon Prime Video、Netflix、Nvidia、Notion 和国外媒体；
 5. `ProxyGFWlist` 通用国外规则；
 6. `MATCH` 兜底。
 
-配置只加载当前实际使用的 provider。Netflix、Emby 和 Bilibili 港澳台等文件保留为可选规则，可根据需要添加 provider。
+Amazon Prime Video 和 Netflix 分别使用 `📺 Amazon Prime Video` 和 `🎬 Netflix` 独立策略组，并在 `ProxyMedia` 合集之前匹配，可分别选择节点或地区。新增的 `AmazonPrimeVideo.list` 需要与配置一同发布，Raw URL 才能生效。
+
+配置只加载当前实际使用的 provider。Emby 和 Bilibili 港澳台等文件保留为可选规则，可根据需要添加 provider。
 
 规则 provider 每 24 小时检查一次更新。从旧版升级时，根目录下的 `*.list` 已迁移到 `rules/`，旧 Raw URL 不再有效。新目录和配置应在同一次提交中发布。
 
