@@ -64,7 +64,12 @@
 
 - 上游文件：rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list
 - 核对版本：933875d42861a7fdfd9f945cd18605d74fa7e943。
-- 本仓库修改：保留原始 26 条 classical 规则及作者信息，添加许可证和上游版本注释。该规则集独立于 Amazon 商城和通用 AWS 规则集。
+- 本仓库修改：保留原始 26 条 classical 规则及作者信息，添加许可证和上游版本注释，并补充下述一条精确域名规则。该规则集独立于 Amazon 商城和通用 AWS 规则集。
+
+#### 补充端点
+
+- `prod.us-east-1.sonar.prime-video.amazon.dev`：出现在 [Prime Video 客户端流量日志](https://github.com/ajstrick81/morphe-androidtv-patches/issues/48)中，按完整主机名添加 `DOMAIN` 规则，避免扩大到整个 `amazon.dev`。
+- 核对日期：2026-10-16；以上为社区日志证据，未在本环境中验证真实客户端播放。
 
 ## 本仓库自定义内容
 
