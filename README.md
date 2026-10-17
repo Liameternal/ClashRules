@@ -74,14 +74,16 @@ ACL4SSR 的 `ProxyGFWlist.list`、`ProxyMedia.list` 等合集可以独立使用�
 
 1. 局域网和广告误杀白名单；
 2. 广告拦截；
-3. 国内媒体、域名、IP 与服务，其中 Apple TV 在 Apple 通用直连规则之前匹配；
+3. 国内媒体、域名、IP 与服务，以及 Apple TV 和 Apple 服务，其中 Apple TV 在 Apple 通用规则之前匹配；
 4. AI、Microsoft、Telegram、游戏、YouTube、Amazon Prime Video、Netflix、Nvidia、Notion 和国外媒体；
 5. `ProxyGFWlist` 通用国外规则；
 6. `MATCH` 兜底。
 
 Amazon Prime Video 和 Netflix 分别使用 `📺 Amazon Prime Video` 和 `🎬 Netflix` 独立策略组，并在 `ProxyMedia` 合集之前匹配，可分别选择节点或地区。新增的 `AmazonPrimeVideo.list` 需要与配置一同发布，Raw URL 才能生效。
 
-Apple TV 使用 `🍎 Apple TV` 独立策略组，可单独选择节点或地区。`AppleTV` provider 在 `Apple`、国内 IP 和 `ProxyMedia` 等规则之前匹配，避免 Apple TV 流量被通用直连规则接管。`AppleTV.list` 需要与配置一同发布，Raw URL 才能生效。
+Apple TV 使用 `🍎 Apple TV` 独立策略组，可单独选择节点或地区。`AppleTV` provider 在 `Apple`、国内 IP 和 `ProxyMedia` 等规则之前匹配，避免 Apple TV 流量被通用规则接管。`AppleTV.list` 需要与配置一同发布，Raw URL 才能生效。
+
+Apple 通用服务使用 `🍎 Apple 服务` 独立策略组，默认跟随 `🚀 节点选择`，也可手动选择地区、节点或 `DIRECT`。Apple 账号认证域名（如 `idmsa.apple.com`）由该组接管；使用 Apple TV 时，建议两组选择同一节点，以保持认证和播放的出口一致。
 
 配置只加载当前实际使用的 provider。Emby 和 Bilibili 港澳台等文件保留为可选规则，可根据需要添加 provider。
 
