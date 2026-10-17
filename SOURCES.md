@@ -55,6 +55,7 @@
 - 许可证：[GPL-2.0](./LICENSES/GPL-2.0-only.txt)
 - 适用文件：
   - rules/global/media/AmazonPrimeVideo.list
+  - rules/global/media/AppleTV.list
   - rules/global/media/Emby.list
   - rules/global/services/Nvidia.list
 - 原始 Emby 作者与来源：justdoiting/emby-rules，相关信息保留在规则文件头部。
@@ -65,6 +66,12 @@
 - 上游文件：rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list
 - 核对版本：933875d42861a7fdfd9f945cd18605d74fa7e943。
 - 本仓库修改：保留原始 26 条 classical 规则及作者信息，添加许可证和上游版本注释。该规则集独立于 Amazon 商城和通用 AWS 规则集。
+
+### Apple TV
+
+- 上游文件：rule/Clash/AppleTV/AppleTV.list
+- 核对版本：933875d42861a7fdfd9f945cd18605d74fa7e943。
+- 本仓库修改：保留原始 8 条 classical 规则及作者信息，添加许可证和上游版本注释。
 
 ## 本仓库自定义内容
 
